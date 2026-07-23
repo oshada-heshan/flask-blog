@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
-    {% for post in posts %}
+    {% for post in posts.items %}
         <article class="content-section">
             <div class="post-container">
                 <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}" alt="Profile picture">
