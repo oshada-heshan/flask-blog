@@ -55,6 +55,16 @@ a.article-title:hover {
   text-decoration: none;
 }
 
+.content-section a,
+.text-muted a {
+  text-decoration: none;
+}
+
+.content-section a:hover,
+.text-muted a:hover {
+  text-decoration: none;
+}
+
 .article-content {
   white-space: pre-line;
 }
